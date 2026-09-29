@@ -1,0 +1,21 @@
+# Python / Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Models & Large Checkpoints
+# models/*.joblib
+!models/.gitkeep
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE / Streamlit Settings
+.vscode/
+.idea/
+.streamlit/secrets.toml

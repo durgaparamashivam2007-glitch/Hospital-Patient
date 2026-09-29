@@ -1,0 +1,31 @@
+# Exclude Git metadata
+.git
+.gitignore
+
+# Exclude virtual environments
+.venv
+venv
+ENV
+env/
+
+# Exclude Python bytecode and cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+
+# Exclude notebooks and checkpoints
+notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Exclude OS & IDE metadata
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+
+# Exclude documentation & non-essential files
+README.md
+LICENSE
